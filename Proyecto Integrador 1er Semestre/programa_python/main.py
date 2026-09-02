@@ -65,7 +65,7 @@ def obtener_provincia(cedula):
 
 def guardar_cedula(cedula, codigo, provincia):
 
-    with open("cedulas.csv", 'a', newline="") as archivo:
+    with open("cedulas.csv", 'a', newline="") as archivo:        #[a] append
 
         escritor = csv.writer(archivo)
 
