@@ -179,7 +179,7 @@ def eliminar_cedula():
             
         if encontrada == True:
             
-            with open("cedulas.csv", "w", newline="") as archivo:
+            with open("cedulas.csv", "w", newline="") as archivo:            #[w] write
 
                 escritor = csv.writer(archivo)
 
